@@ -1,4 +1,11 @@
 # FaNiMoji
+
+### Running 
+```
+uvicorn main:app
+```
+
+
 ### Curl example 
 ```
 curl --location --request POST 'http://127.0.0.1:8000/prediction/' \
